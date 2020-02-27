@@ -8,5 +8,6 @@ class PinyinToKanaTest < Minitest::Test
   def test_valid
     assert PinyinToKana.pinyin_to_kana('liu') == 'リウ'
     assert PinyinToKana.pinyin_to_kana('Zhao') == 'ジャオ'
+    assert PinyinToKana.pinyin_to_kana('xi jin ping') == 'シージンピン'
   end
 end

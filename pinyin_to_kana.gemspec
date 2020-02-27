@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kazato Sugimoto"]
   spec.email         = ["uiureo@gmail.com"]
 
-  spec.summary       = %q{convert pinyin to japanese kana}
-  spec.description   = %q{}
-  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Translate Chinese pinyin to Japanese kana}
+  spec.description   = %q{Translate Chinese pinyin to Japanese kana}
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
